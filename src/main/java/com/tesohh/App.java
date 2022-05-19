@@ -1,5 +1,6 @@
 package com.tesohh;
 
+import com.tesohh.commands.crazygive;
 import com.tesohh.handlers.TorchHandler;
 
 import org.bukkit.command.Command;
@@ -12,11 +13,8 @@ public class App extends JavaPlugin {
 		getLogger().info("Benvenuto in CrazyItems!");
 
 		new TorchHandler(this);
-	}
 
-	@Override
-	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-		return true;
+		this.getCommand("crazygive").setExecutor(new crazygive());
 	}
 
 	@Override

@@ -6,6 +6,6 @@ description: Un plugin che aggiunge diversi oggetti e enchant custom
 api-version: 1.18
 
 commands:
-  esseba:
-    description: ESSEBA!!!
+  crazygive:
+    description: Ti da un oggetto Crazy!!!
     usage: /<command>
