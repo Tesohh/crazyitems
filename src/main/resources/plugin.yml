@@ -1,0 +1,11 @@
+main: com.tesohh.App
+name: CrazyItems
+version: 0.1
+authors: [Tesohh]
+description: Un plugin che aggiunge diversi oggetti e enchant custom
+api-version: 1.18
+
+commands:
+  esseba:
+    description: ESSEBA!!!
+    usage: /<command>
